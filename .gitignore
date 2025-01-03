@@ -1,0 +1,18 @@
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# gleam
+*.beam
+*.ez
+/build
+erl_crash.dump
+
+# advent of code
+puzzleinput/
