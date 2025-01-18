@@ -9,10 +9,11 @@ devenv.local.nix
 .pre-commit-config.yaml
 
 # gleam
-*.beam
-*.ez
-/build
-erl_crash.dump
+gleam/*.beam
+gleam/*.ez
+gleam/build
+gleam/erl_crash.dump
 
 # advent of code
 puzzleinput/
+build

@@ -16,6 +16,8 @@
   # https://devenv.sh/languages/
   # languages.rust.enable = true;
   languages.gleam.enable = true;
+  languages.go.enable = true;
+  languages.zig.enable = true;
 
   # https://devenv.sh/processes/
   # processes.cargo-watch.exec = "cargo-watch";
